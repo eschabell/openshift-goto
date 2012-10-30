@@ -1,7 +1,7 @@
-JUDCon Boston mobile registration app on OpenShift
-====================================================
+Red Hat Developer Day London mobile registration app on OpenShift
+=================================================================
 
-This is the JUDCon Boston 2012 html5/mboile registration app.
+This is the Red Hat Developer Day London 2012 html5/mboile registration app.
 
 Running on OpenShift
 --------------------
@@ -10,12 +10,12 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbossas-7 application
 
-    rhc app create -a judcon -t jbossas-7
+    rhc app create -a devdayuk -t jbossas-7
 
 Add this upstream cloudtour repo
 
-    cd judcon
-    git remote add upstream -m master git://github.com/eschabell/openshift-judcon.git
+    cd devdayuk
+    git remote add upstream -m master git://github.com/eschabell/openshift-devdayuk.git
     git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream
@@ -24,6 +24,6 @@ Then push the repo upstream
 
 That's it, you can now checkout your application at:
 
-    http://judcon-$namespace.rhcloud.com
+    http://devdayuk-$namespace.rhcloud.com
 
 Don't forget it is better in your mobile browsers!
