@@ -8,9 +8,9 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a jbossas-7 application
+Create a jbosseap-6.0 application
 
-    rhc app create -a devdayuk -t jbossas-7
+    rhc app create -a devdayuk -t jbosseap-6.0
 
 Add this upstream cloudtour repo
 
