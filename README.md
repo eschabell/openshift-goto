@@ -10,17 +10,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application
 
-    rhc app create -a devdayuk -t jbosseap-6.0
-
-Add this upstream cloudtour repo
-
-    cd devdayuk
-    git remote add upstream -m master git://github.com/eschabell/openshift-devdayuk.git
-    git pull -s recursive -X theirs upstream master
-
-Then push the repo upstream
-
-    git push
+    rhc app create -a devdayuk -t jbosseap-6.0 --from-code git://github.com/eschabell/openshift-devdayuk.git
 
 That's it, you can now checkout your application at:
 
