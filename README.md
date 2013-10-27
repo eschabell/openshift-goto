@@ -8,9 +8,9 @@ Running on OpenShift
 
 Create an account at http://openshift.redhat.com/
 
-Create a jbosseap-6.0 application
+Create a jbosseap-6 application
 
-    rhc app create -a devdayuk -t jbosseap-6.0 --from-code git://github.com/eschabell/openshift-goto.git
+    rhc app create -t jbosseap-6 --from-code git://github.com/eschabell/openshift-goto.git goto
 
 That's it, you can now checkout your application at:
 
