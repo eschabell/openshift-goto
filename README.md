@@ -1,3 +1,6 @@
+Update: June 2018 moved to [Gitlab](https://gitlab.com/eschabell/openshift-goto)
+
+
 GOTO 2013 mobile registration app on OpenShift
 ==============================================
 This is the GOTO 2013 html5 mobile registration app.
